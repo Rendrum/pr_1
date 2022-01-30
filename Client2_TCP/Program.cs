@@ -11,7 +11,7 @@ namespace ClientTcp
         {
 
             const string ip = "127.0.0.1";
-            const int port = 8081;
+            const int port = 8082;
 
             var tcpEndPoint = new IPEndPoint(IPAddress.Parse(ip), port);
 
@@ -42,7 +42,7 @@ namespace ClientTcp
             tcpSocket.Close();
 
             Console.ReadLine();
-          
+
         }
     }
 }

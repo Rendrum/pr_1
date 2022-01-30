@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server_TCP", "pr_1\Server_T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client_TCP", "Client_TCP\Client_TCP.csproj", "{3499015C-CEE8-4B66-B967-7CCB6F6CDB2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client2_TCP", "Client2_TCP\Client2_TCP.csproj", "{0D2C8613-435D-439D-A1AF-1D8DA8F0E01A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3499015C-CEE8-4B66-B967-7CCB6F6CDB2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3499015C-CEE8-4B66-B967-7CCB6F6CDB2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3499015C-CEE8-4B66-B967-7CCB6F6CDB2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2C8613-435D-439D-A1AF-1D8DA8F0E01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2C8613-435D-439D-A1AF-1D8DA8F0E01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2C8613-435D-439D-A1AF-1D8DA8F0E01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2C8613-435D-439D-A1AF-1D8DA8F0E01A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
