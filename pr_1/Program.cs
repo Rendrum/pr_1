@@ -34,12 +34,13 @@ namespace pr_1
                 }
                 while (listener.Available > 0);
 
-                Console.WriteLine(data); // TODO: проверить .ToString
+                Console.WriteLine(data);
 
-                listener.Send(Encoding.UTF8.GetBytes("Успех"));
+                listener.Send(Encoding.UTF8.GetBytes("Succes"));
 
                 listener.Shutdown(SocketShutdown.Both);
                 listener.Close();
+                //
             }
         }
     }

@@ -17,7 +17,7 @@ namespace ClientTcp
 
             var tcpSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
-            Console.WriteLine("Введите сообщение:");
+            Console.WriteLine("nput message:");
             var message = Console.ReadLine();
 
             var data = Encoding.UTF8.GetBytes(message);
